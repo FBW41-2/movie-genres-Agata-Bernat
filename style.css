@@ -1,4 +1,47 @@
 html, body {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+}
+
+.genres {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.box {
+    text-align: center;
+    width: 500px;
+    padding: 30px;
+}
+
+.Action {
+    background: dodgerblue;
+    flex-grow: 1;
+}
+
+.Thriller {
+    background: rgb(190, 178, 178);
+    flex-grow: 2;
+}
+
+.Comedy {
+    background: rgb(255, 214, 30);
+    flex-grow: 2;
+    order: 6;
+}
+
+.Horror {
+    background: black;
+    color: white;
+    flex-grow: 1;
+}
+
+.Drama {
+    background: darkgray;
+    flex-grow: 1;
+}
+
+.Romance {
+    background: red;
+    flex-grow: 1;
 }
